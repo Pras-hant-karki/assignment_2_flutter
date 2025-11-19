@@ -59,14 +59,24 @@ class _ArithmeticScreenState extends State<ArithmeticScreen> {
           SizedBox(height: 11),
           TextFormField(
             keyboardType: TextInputType.number,
-            // onChanged: (value) {
-            //   second = int.tryParse(value) ?? 0;
-            // },
             controller: secondController,
+
+
             decoration: InputDecoration(
               labelText: "Enter second number",
               hintText: "eg: 69",
-              border:OutlineInputBorder(),
+
+              border:OutlineInputBorder(
+                borderRadius: BorderRadius.all(Radius.circular(10.0)),
+              ),
+              enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.red),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.green),
+              ),
+
+
             ),
              validator: (value) {
                   if (value == null || value.isEmpty) {
