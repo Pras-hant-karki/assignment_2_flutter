@@ -111,7 +111,7 @@ class FlutterLayoutScreen extends StatelessWidget {
                     color: Colors.redAccent,
                   ),
 
-                  Text("Data off", style: TextStyle(
+                  Text("M Data", style: TextStyle(
                     fontSize: 20, 
                     fontWeight: FontWeight.bold,
                     color: Colors.black
