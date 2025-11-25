@@ -1,5 +1,5 @@
 
-import 'package:assignment_2_flutter/Screens/container_screen.dart';
+import 'package:assignment_2_flutter/Screens/flexible_expanded_screen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ContainerScreen()
+      home: FlexibleExpandedScreen()
     );
   }
 }
